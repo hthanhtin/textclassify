@@ -103,9 +103,6 @@ def Predict_Page():
         else:
             st.error("**Văn bản xếp vào lớp Tiêu cực**")
 
-
-
-
 def Gui():
     t1, t2, t3=st.tabs(["**1.Tiền xử lý văn bản**","**2.Huấn luyện mô hình**","**3.Phân loại văn bản**"])
     with t1:
