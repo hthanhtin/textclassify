@@ -129,10 +129,3 @@ class BayesModel:
             self.NBmodel=pickle.load(modelfile)
         with open(vectorfilename,"rb") as vectorfile:
             self.vectorizer=pickle.load(vectorfile)
-
-
-
-
-
-
-
