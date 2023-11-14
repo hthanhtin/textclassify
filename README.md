@@ -1,4 +1,5 @@
-# Bài tập cuối khoá học AI-Phân loại sắc thái văn bản sử dụng Naive Bayes
+# Bài tập cuối khoá học AI
+# Phân loại sắc thái văn bản sử dụng Naive Bayes
 # 1. Hướng dẫn sử dụng cài đặt và sử dụng dự án
 - 1. Máy tính cần phải cài đặt Python trước 
 - 2. Download Project và giải nén vào một thư mục
