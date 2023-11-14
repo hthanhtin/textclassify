@@ -4,25 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from modelutils import BayesModel, modelUtils
 model=BayesModel()
 util=modelUtils()
-path=r"D:\1.CA NHAN\pythonProject\AI_project\data\train"
-def test1():
-    stws=util.getStopword()
-    Texts, Labels=util.getTexts_Labels(path)
-    model.setData(Texts=Texts, Labels=Labels, TextPresent="Bow", ngram=1, stopwords=stws, testsize=0.3, kernel="GaussianNB")
-    x, y=model.train_model()
-    print (x, y)
-    #vt=model.Str2Vector(r"Vô cách đây 1 tuần mà giờ mới review , được anh bạn ở gần quán dẫn vô ăn thử xem quán bán thế_nào , để đặt tiệc công_ty cuối năm , không_gian quán gồm 3 sảnh A , B , C_DÃY_PHÒNG_VIP 6 phòng , mới nhìn vào thì thấy rộng_rãi mát , hợp với ý_định của anh bạn , còn về món ăn_theo như mình chấm nếu 10 thì cũng đạt 8 , nhiều món lạ mà khu_vực gần đây không có , đặc_trưng quán , Vịt xông khói Đài_Loan gì đó cũng lạ_miệng và ngon , nhìn menu thì nhiều món quá mình chỉ thử được vài món nhưng đều đạt , có món bạch tuột sống nhúng giấm , trời_ơi nhân_viên bắt vào nó bò lúc_nhúc nhưng ăn ngon thật rất tươi và ngọt . Các bạn thử tới xem sao : ")
-    #print (model.NBmodel.predict(vt))
-    #model.save_model()
-def test2():
-    import numpy as np
-    stws = util.getStopword()
-    model.setData(Texts=None, Labels=None, TextPresent="Bow", ngram=1, stopwords=stws, testsize=0.3, kernel="MultinomialNB")
-    model.loadModel()
-    str=r'''Ăn_ở quán được khoảng 4 5 lần gì đó , quá tệ'''
-    vt = model.vectorizer.transform([str])
-    vt = np.array(vt.toarray())
-    print (model.NBmodel.predict(vt))
+
 #==================================================
 # Create GUI
 import streamlit as st
