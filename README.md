@@ -1,4 +1,4 @@
-# Bài tập cuối khoá học AI
+# Bài tập cuối khoá học AI-11/2023
 # Phân loại sắc thái văn bản sử dụng Naive Bayes
 # 1. Hướng dẫn sử dụng cài đặt và sử dụng dự án
 - 1. Máy tính cần phải cài đặt Python trước 
