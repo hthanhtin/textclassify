@@ -20,3 +20,4 @@
 * https://scikit-learn.org/
 * https://scikit-learn.org/stable/modules/naive_bayes.html
 * https://docs.streamlit.io/knowledge-base/tutorials
+* https://github.com/congnghia0609/ntc-scv/blob/master/data/data_train.zip (Dữ liệu huấn luyện và kiểm tra)
